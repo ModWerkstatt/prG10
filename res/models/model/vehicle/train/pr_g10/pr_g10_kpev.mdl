@@ -1,8 +1,8 @@
 function data()
 return {
 	boundingInfo = {
-		bbMax = { 9.4716606140137, 1.6608493328094, 4.5346412658691, },
-		bbMin = { -9.2045307159424, -1.6608494520187, -0.058063626289368, },
+		bbMax = { 9.47166, 1.6608493328094, 4.5346412658691, },
+		bbMin = { -9.50874, -1.6608494520187, -0.058063626289368, },
 	},
 	collider = {
 		params = {
@@ -21,71 +21,65 @@ return {
 						        materials = { "vehicle/train/pr_g10/rumpf_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rumpf_kpev_lod0.msh",
 						        name = "rumpf_kpev",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7.0391464233398, 0, 2.7066023349762, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/rumpf_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/borde_alt_lod0.msh",
 						        name = "borde_alt",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.39782121777534, 0, 1.5320435762405, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/glas.mtl", },
-						        mesh = "vehicle/train/pr_g10/glas_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/glas_kpev_lod0.msh",
 						        name = "glas_g10_kpev",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
-                            {
-						        materials = { "vehicle/train/pr_g10/rumpf_kpev.mtl", },
-						        mesh = "vehicle/train/pr_g10/puffer_kpev_lod0.msh",
-						        name = "puffer_kpev",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.8021516799927, 0, 0, 1, },
-					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/rumpf_kpev.mtl", },
-						        mesh = "vehicle/train/pr_g10/lampe_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/lampen_kpev_lod0.msh",
 						        name = "Lampe_old",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.7863454818726, 0, 0.094767883419991, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/innen.mtl", },
 						        mesh = "vehicle/train/pr_g10/innen_lod0.msh",
 						        name = "innen_g10",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.79260563850403, 0, 2.9435110092163, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
                             {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rad_lod0.msh",
 						        name = "rad_5",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3176195025444, 0, 0.65180081129074, 1, },
-					        },
-					        {
-						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
-						        mesh = "vehicle/train/pr_g10/rad3_lod0.msh",
-						        name = "rad_3",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3113896846771, 0, 0.65180099010468, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9947, 0, 0.65180081129074, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rad_lod0.msh",
 						        name = "rad_4",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.8119498491287, 0, 0.65180081129074, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4965, 0, 0.65180081129074, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
+						        mesh = "vehicle/train/pr_g10/rad3_lod0.msh",
+						        name = "rad_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.65180099010468, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rad_lod0.msh",
 						        name = "rad_2",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.8088898658752, 0, 0.65180081129074, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4995, 0, 0.65180081129074, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rad_lod0.msh",
 						        name = "rad_1",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3071098327637, 0, 0.65180081129074, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.99378, 0, 0.65180081129074, 1, },
 					        },
                             {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/rechts_rod_2.ani",
 								        },
@@ -95,11 +89,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rechts_rod_2_lod0.msh",
 						        name = "rechts_rod_2",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2765965461731, -0.054865654557943, 0.64995384216309, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.965196546, -0.054865654557943, 0.64995384216309, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/rechts_rod_3.ani",
 								        },
@@ -109,17 +103,17 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rechts_rod_3_lod0.msh",
 						        name = "rechts_rod_3",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5727791786194, -0.074586160480976, 1.2353398799896, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.261379179, -0.074586160480976, 1.2353398799896, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rechts_rod_4_lod0.msh",
 						        name = "rechts_rod_4",
-						        transf = { 0.62748497724533, 0, -0.057681825011969, 0, 0, -0.63013058900833, 0, 0, 0.057681825011969, 0, 0.62748497724533, 0, 6.5802402496338, -1.1330720186234, 1.3853641748428, 1, },
+						        transf = { 0.62748497724533, 0, -0.057681825011969, 0, 0, -0.63013058900833, 0, 0, 0.057681825011969, 0, 0.62748497724533, 0, 3.26884025, -1.1330720186234, 1.3853641748428, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/rechts_rod_5.ani",
 								        },
@@ -129,11 +123,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rechts_rod_5_lod0.msh",
 						        name = "rechts_rod_5",
-						        transf = { 0.93563085794449, 0, 0.35297989845276, 0, 0, 1, 0, 0, -0.35297989845276, 0, 0.93563085794449, 0, 6.5787496566772, -0.074586153030396, 1.3856496810913, 1, },
+						        transf = { 0.93563085794449, 0, 0.35297989845276, 0, 0, 1, 0, 0, -0.35297989845276, 0, 0.93563085794449, 0, 3.267349657, -0.074586153030396, 1.3856496810913, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/rechts_rod_6.ani",
 								        },
@@ -143,11 +137,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rechts_rod_6_lod0.msh",
 						        name = "rechts_rod_6",
-						        transf = { 0.52918672561646, 0, 0.1895298063755, 0, 0, 0.38590052723885, 0, 0, -0.1895298063755, 0, 0.52918672561646, 0, 4.5992312431335, -1.1303344964981, 1.3482311964035, 1, },
+						        transf = { 0.52918672561646, 0, 0.1895298063755, 0, 0, 0.38590052723885, 0, 0, -0.1895298063755, 0, 0.52918672561646, 0, 1.287831243, -1.1303344964981, 1.3482311964035, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/rechts_rod_7.ani",
 								        },
@@ -157,11 +151,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rechts_rod_7_lod0.msh",
 						        name = "rechts_rod_7",
-						        transf = { 0.9999977350235, 0, 0.0021105112973601, 0, 0, 1, 0, 0, -0.0021105112973601, 0, 0.9999977350235, 0, 3.350594997406, -1.1381357908249, 0.6567103266716, 1, },
+						        transf = { 0.9999977350235, 0, 0.0021105112973601, 0, 0, 1, 0, 0, -0.0021105112973601, 0, 0.9999977350235, 0, 0.039194997, -1.1381357908249, 0.6567103266716, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/rechts_rod_9.ani",
 								        },
@@ -171,11 +165,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/rechts_rod_9_lod0.msh",
 						        name = "rechts_rod_9",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2815957069397, -1.294142127037, 0.43582725524902, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.970195707, -1.294142127037, 0.43582725524902, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/radverbinder_rechts.ani",
 								        },
@@ -185,11 +179,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/radverbinder_rechts_lod0.msh",
 						        name = "radverbinder_rechts",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, -0.0019292731303722, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.3114, 0, -0.0019292731303722, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/schubstange_rechts.ani",
 								        },
@@ -199,11 +193,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/schubstange_rechts_lod0.msh",
 						        name = "schubstange_rechts",
-						        transf = { 0.99612510204315, 0, 0.087947055697441, 0, 0, 1, 0, 0, -0.087947055697441, 0, 0.99612510204315, 0, 3.3100938796997, -0.059182889759541, 0.39262300729752, 1, },
+						        transf = { 0.99612510204315, 0, 0.087947055697441, 0, 0, 1, 0, 0, -0.087947055697441, 0, 0.99612510204315, 0, 0, -0.059182889759541, 0.39262300729752, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/links_rod_7.ani",
 								        },
@@ -213,11 +207,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/links_rod_7_lod0.msh",
 						        name = "links_rod_7",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.350594997406, 1.1658506393433, 0.65116906166077, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.039194997, 1.1658506393433, 0.65116906166077, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/radverbinder_links.ani",
 								        },
@@ -227,11 +221,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/radverbinder_links_lod0.msh",
 						        name = "radverbinder_links",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0.0011638067662716, 0.51614117622375, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.3114, 0.0011638067662716, 0.51614117622375, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/schubstange_links.ani",
 								        },
@@ -241,11 +235,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/schubstange_links_lod0.msh",
 						        name = "schubstange_links",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3100938796997, 0.060346689075232, 0.91069340705872, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001, 0.060346689075232, 0.91069340705872, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/links_rod_2.ani",
 								        },
@@ -255,11 +249,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/links_rod_2_lod0.msh",
 						        name = "links_rod_2",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2765965461731, 0.055621802806854, 0.64995384216309, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.965196546, 0.055621802806854, 0.64995384216309, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/links_rod_3.ani",
 								        },
@@ -269,17 +263,17 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/links_rod_3_lod0.msh",
 						        name = "links_rod_3",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5727791786194, 0.075342230498791, 1.2353398799896, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.261379179, 0.075342230498791, 1.2353398799896, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/links_rod_4_lod0.msh",
 						        name = "links_rod_4",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5802402496338, 1.1338280439377, 1.3853641748428, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.26884025, 1.1338280439377, 1.3853641748428, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/links_rod_5.ani",
 								        },
@@ -289,11 +283,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/links_rod_5_lod0.msh",
 						        name = "links_rod_5",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.5787496566772, 0.075342230498791, 1.3856496810913, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.267349657, 0.075342230498791, 1.3856496810913, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/links_rod_6.ani",
 								        },
@@ -303,11 +297,11 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/links_rod_6_lod0.msh",
 						        name = "links_rod_6",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.5992312431335, 1.1310906410217, 1.3482311964035, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.287831243, 1.1310906410217, 1.3482311964035, 1, },
 					        },
 					        {
 						        animations = {
-							        Scene = {
+							        wheels = {
 								        params = {
 									        id = "vehicle/train/pr_g10/links_rod_9.ani",
 								        },
@@ -317,47 +311,65 @@ return {
 						        materials = { "vehicle/train/pr_g10/beweglich_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/links_rod_9_lod0.msh",
 						        name = "links_rod_9",
-						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.2815957069397, 1.2948981523514, 0.43582725524902, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.970195707, 1.2948981523514, 0.43582725524902, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/licht.mtl", },
+						        mesh = "vehicle/train/pr_g10/licht_weiss_kpev_lod0.msh",
+						        name = "licht",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
                         },
-						name = "Preußische G10",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						name = "Preußische_G10",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.31236, 0, 0, 1, },
                     },
                     {
                         children = {
                             {
-						        materials = { "vehicle/train/pr_g10/tender_3t20_kpev.mtl", },
-						        mesh = "vehicle/train/pr_g10/tender_3t20/rumpf_lod0.msh",
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_kpev.mtl", },
+						        mesh = "vehicle/train/pr_g10/tender_3t20/rumpf_kpev_lod0.msh",
 						        name = "3t20",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/pr_g10/tender_3t20_kpev.mtl", },
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/tender_3t20/rad_lod0.msh",
 						        name = "rad_3t20",
-						        transf = { 0.080178171396255, 0, 0, 0, 0, 0, 0.080178171396255, 0, 0, -0.60853630304337, 0, 0, -3.3728718757629, 0, 0.4901682138443, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.1713, 0, 0.490168, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/pr_g10/tender_3t20_kpev.mtl", },
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/tender_3t20/rad_lod0.msh",
 						        name = "rad_3t20",
-						        transf = { 0.080178171396255, 0, 0, 0, 0, 0, 0.080178171396255, 0, 0, -0.60853630304337, 0, 0, -5.7424, 0, 0.4901682138443, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1982, 0, 0.490168, 1, },
 					        },
 					        {
-						        materials = { "vehicle/train/pr_g10/tender_3t20_kpev.mtl", },
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_kpev.mtl", },
 						        mesh = "vehicle/train/pr_g10/tender_3t20/rad_lod0.msh",
 						        name = "rad_3t20",
-						        transf = { 0.080178171396255, 0, 0, 0, 0, 0, 0.080178171396255, 0, 0, -0.60853630304337, 0, 0, -7.71306, 0, 0.4901682138443, 1, },
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.1689, 0, 0.490168, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_kpev.mtl", },
+						        mesh = "vehicle/train/pr_g10/tender_3t20/lampen_kpev_lod0.msh",
+						        name = "Lampe_old",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/glas.mtl", },
-						        mesh = "vehicle/train/pr_g10/tender_3t20/glas_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/tender_3t20/glas_kpev_lod0.msh",
 						        name = "glas_tender_3t20",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/licht.mtl", },
+						        mesh = "vehicle/train/pr_g10/tender_3t20/licht_rot_kpev_lod0.msh",
+						        name = "licht_rot",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
                         },
-						name = "Tender 3T20",
-						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+						name = "Tender_3T20",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.54424, 0, 0, 1, },
                     },
 				},
 				name = "RootNode",
@@ -396,7 +408,7 @@ return {
 					color = { 0.6, 0.7, 0.7, },
 					frequency = 60,
 					lifeTime = 4,
-					position = { 3.95, 0, 4.35, },
+					position = { 4.0, 0, 4.35, },
 					size01 = { 0.25, 4, },
 					velocity = { 0, 0, 8, },
 				},
@@ -405,7 +417,7 @@ return {
 					color = { 0.7, 0.7, 0.7, },
 					frequency = 80,
 					lifeTime = 1,
-					position = { 3.975, -1.025, 0.22, },
+					position = { 3.975, -1.025, 0.42, },
 					size01 = { 0.1, 0.2, },
 					velocity = { -1, 0, 0, },
 				},
@@ -414,7 +426,7 @@ return {
 					color = { 0.7, 0.7, 0.7, },
 					frequency = 80,
 					lifeTime = 1,
-					position = { 3.975, 1.025, 0.22, },
+					position = { 3.975, 1.025, 0.42, },
 					size01 = { 0.1, 0.2, },
 					velocity = { -1, 0, 0, },
 				},
@@ -456,7 +468,7 @@ return {
                     forward = true,
                     group = 1,
                     standing = true,
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.8, -1, 1.4, 1, },
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.8, -1, 1.58, 1, },
                 },
 				{
                     animation = "idle",
@@ -464,7 +476,7 @@ return {
                     forward = true,
                     group = 1,
                     standing = true,
-                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.8, 0.5, 1.4, 1, },
+                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.8, 0.5, 1.58, 1, },
                 },
 				{
                     animation = "idle",
@@ -472,7 +484,7 @@ return {
                     forward = false,
                     group = 1,
                     standing = true,
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.8, -1, 1.4, 1, },
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.8, -1, 1.58, 1, },
                 },
 				{
                     animation = "idle",
@@ -480,7 +492,7 @@ return {
                     forward = false,
                     group = 1,
                     standing = true,
-                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.8, 0.5, 1.4, 1, },
+                    transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.8, 0.5, 1.58, 1, },
                 },
             },
 		},
