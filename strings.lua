@@ -2,7 +2,7 @@ function data()
 return {
 		de = {
 
-			["mod_name"] = "Preußische G 8 / G 8.1 / BR 55 / BR 56",
+			["mod_name"] = "Preußische G 10 / BR 57",
 			["mod_desc"] = "Die Lokomotiven der Gattung G 8 waren vierfach gekuppelte, laufachslose Güterzuglokomotiven der Preußischen Staatseisenbahnen. Es gab zwei Varianten, einmal die ab 1902 gebaute G 8 und die ab 1913 gebaute \"verstärkte G 8\", später als G 8.1 bezeichnet. Letztere war mit mehr als 5.000 Exemplaren die meistgebaute Länderbahnlokomotive überhaupt.\n\nVerfügbarkeit: ab 1902 / ab 1914 bis 1972\nHöchstgeschwindikeit: 55 km/h / 70 km/h\nZugkraft: 809 kW / 927 kW\nAnfahrzugkraft: 175 kN / 194 kN",
 
             ["pr_g8_menu"] = "Preußische G 8 / BR 55/055/056",
