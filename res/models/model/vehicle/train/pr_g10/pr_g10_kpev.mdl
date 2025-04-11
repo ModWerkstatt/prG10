@@ -456,7 +456,7 @@ return {
 			soundSet = {
 				name = "pr_g10",
 			},
-			topSpeed = 16.66666667,
+			topSpeed = 15.277777778, -- 16.66666667,
 			weight = 122,
 		},
 		seatProvider = {
