@@ -18,7 +18,7 @@ return {
 			type = "TWOD",
 		},
 		map_cblend_dirt_rust = {
-			fileName = "models/vehicle/train/pr_g10/rumpf_cblend_dirt_rust.dds",
+			fileName = "models/vehicle/train/pr_g10/rumpf_kpev_cblend_dirt_rust.dds",
 			type = "TWOD",
 		},
 		map_dirt = {
