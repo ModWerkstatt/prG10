@@ -19,7 +19,7 @@ return {
                         children = {
 					        {
 						        materials = { "vehicle/train/pr_g10/rumpf_kpev2.mtl", },
-						        mesh = "vehicle/train/pr_g10/rumpf_kpev2_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/kpev/rumpf_kpev2_lod0.msh",
 						        name = "rumpf_kpev",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -31,13 +31,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/glas.mtl", },
-						        mesh = "vehicle/train/pr_g10/glas_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/kpev/glas_kpev_lod0.msh",
 						        name = "glas_g10_kpev",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/rumpf_kpev2.mtl", },
-						        mesh = "vehicle/train/pr_g10/lampen_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/kpev/lampen_kpev_lod0.msh",
 						        name = "Lampe_old",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -315,13 +315,13 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/licht.mtl", },
-						        mesh = "vehicle/train/pr_g10/licht_weiss_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/kpev/licht_weiss_kpev_lod0.msh",
 						        name = "licht_weiss",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/licht.mtl", },
-						        mesh = "vehicle/train/pr_g10/licht_rot_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/kpev/licht_rot_kpev_lod0.msh",
 						        name = "licht_rot",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -333,7 +333,7 @@ return {
                         children = {
                             {
 						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_kpev2.mtl", },
-						        mesh = "vehicle/train/pr_g10/tender_3t20/rumpf_kpev2_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/tender_3t20/kpev/rumpf_kpev2_lod0.msh",
 						        name = "3t20",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -357,25 +357,25 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_kpev2.mtl", },
-						        mesh = "vehicle/train/pr_g10/tender_3t20/lampen_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/tender_3t20/kpev/lampen_kpev_lod0.msh",
 						        name = "Lampe_old",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/glas.mtl", },
-						        mesh = "vehicle/train/pr_g10/tender_3t20/glas_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/tender_3t20/kpev/glas_kpev_lod0.msh",
 						        name = "glas_tender_3t20",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/licht.mtl", },
-						        mesh = "vehicle/train/pr_g10/tender_3t20/licht_rot_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/tender_3t20/kpev/licht_rot_kpev_lod0.msh",
 						        name = "tender_licht_rot",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/licht.mtl", },
-						        mesh = "vehicle/train/pr_g10/tender_3t20/licht_weiss_kpev_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/tender_3t20/kpev/licht_weiss_kpev_lod0.msh",
 						        name = "tender_licht_weiss",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
