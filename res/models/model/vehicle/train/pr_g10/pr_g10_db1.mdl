@@ -43,7 +43,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/innen.mtl", },
-						        mesh = "vehicle/train/pr_g10/innen_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/db/innen_db_lod0.msh",
 						        name = "innen_g10",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
@@ -389,7 +389,89 @@ return {
 			},
 			static = false,
 			visibleFrom = 0,
-			visibleTo = 1710.6999511719,
+			visibleTo = 150,
+		},{
+			node = {
+				children = {
+					{
+                        children = {
+					        {
+						        materials = { "vehicle/train/pr_g10/rumpf_db1.mtl", },
+						        mesh = "vehicle/train/pr_g10/drg/rumpf_drg3_lod2.msh",
+						        name = "rumpf_db",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                            {
+						        materials = { "vehicle/train/pr_g10/beweglich_db.mtl", },
+						        mesh = "vehicle/train/pr_g10/rad_lod2.msh",
+						        name = "rad_5",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9947, 0, 0.65180081129074, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/beweglich_db.mtl", },
+						        mesh = "vehicle/train/pr_g10/rad_lod2.msh",
+						        name = "rad_4",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4965, 0, 0.65180081129074, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/beweglich_db.mtl", },
+						        mesh = "vehicle/train/pr_g10/rad_lod2.msh",
+						        name = "rad_3",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.65180099010468, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/beweglich_db.mtl", },
+						        mesh = "vehicle/train/pr_g10/rad_lod2.msh",
+						        name = "rad_2",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4995, 0, 0.65180081129074, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/beweglich_db.mtl", },
+						        mesh = "vehicle/train/pr_g10/rad_lod2.msh",
+						        name = "rad_1",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.99378, 0, 0.65180081129074, 1, },
+					        },
+                        },
+						name = "Preußische_G10",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.31236, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+                            {
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_db1.mtl", },
+						        mesh = "vehicle/train/pr_g10/tender_3t20/rumpf_lod2.msh",
+						        name = "3t20",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_db1.mtl", },
+						        mesh = "vehicle/train/pr_g10/tender_3t20/rad_lod2.msh",
+						        name = "rad_3t20",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.1713, 0, 0.490168, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_db1.mtl", },
+						        mesh = "vehicle/train/pr_g10/tender_3t20/rad_lod2.msh",
+						        name = "rad_3t20",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.1982, 0, 0.490168, 1, },
+					        },
+					        {
+						        materials = { "vehicle/train/pr_g10/tender_3t20/rumpf_db1.mtl", },
+						        mesh = "vehicle/train/pr_g10/tender_3t20/rad_lod2.msh",
+						        name = "rad_3t20",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.1689, 0, 0.490168, 1, },
+					        },
+                        },
+						name = "Tender_3T20",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.54424, 0, 0, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 600,
+			visibleTo = 1700,
 		},
 	},
 	metadata = {
@@ -451,9 +533,9 @@ return {
 						      "vehicle/train/pr_g10/rad3_lod0.msh",
 							  "vehicle/train/pr_g10/tender_3t20/rad_lod0.msh", },
 					backBackwardParts = { 40, },
-					backForwardParts = { 38, },
+					backForwardParts = { 39, },
 					frontBackwardParts = { 31, },
-					frontForwardParts = { 39, },
+					frontForwardParts = { 30, },
 					innerBackwardParts = { },
 					innerForwardParts = { },
 				},
