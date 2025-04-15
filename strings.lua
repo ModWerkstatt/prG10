@@ -2,7 +2,7 @@ function data()
 return {
 		en = {
 
-			["mod_name"] = "Prussian G 10 / Class 55 / Class 57",
+			["mod_name"] = "Prussian G 10 / Class 57",
 			["mod_desc"] = "The class G 8 locomotives were four-coupled, running-axle freight locomotives of the Prussian State Railways. There were two variants, the G 8 built from 1902 and the \"reinforced G 8\" built from 1913, later called G 8.1. With more than 5,000 units, the latter was the most frequently built state railway locomotive ever.\n\nAvailability: from 1902 / from 1914 to 1972\nMaximum speed: 55 km/h / 70 km/h\nPower: 809 kW / 927 kW\nTractive effort: 175 kN / 194 kN",
 
 			["pr_g10_menu"] = "Prussian G 10 / Class 55/57",
@@ -49,48 +49,31 @@ return {
 
 		de = {
 
-			["mod_name"] = "Preußische G 10 / BR 55 / BR 57",
-			["mod_desc"] = "Die Lokomotiven der Gattung G 8 waren vierfach gekuppelte, laufachslose Güterzuglokomotiven der Preußischen Staatseisenbahnen. Es gab zwei Varianten, einmal die ab 1902 gebaute G 8 und die ab 1913 gebaute \"verstärkte G 8\", später als G 8.1 bezeichnet. Letztere war mit mehr als 5.000 Exemplaren die meistgebaute Länderbahnlokomotive überhaupt.\n\nVerfügbarkeit: ab 1902 / ab 1914 bis 1972\nHöchstgeschwindikeit: 55 km/h / 70 km/h\nZugkraft: 809 kW / 927 kW\nAnfahrzugkraft: 175 kN / 194 kN",
+			["mod_name"] = "Preußische G 10 / BR 57",
+			["mod_desc"] = "Die Lokomotiven der Gattung G 10 waren fünffach gekuppelte Güterzuglokomotiven der Preußischen Staatseisenbahnen. Sie wurden zwischen 1910 und 1926 gebaut und gelten mit der Baureihe 52 als am weitesten verbreitete Güterzuglokomotiven. Sie waren noch bis 1970 im Einsatz, wurde EDV-mäßig erfasst aber haben nie die Anschrift als Baureihe 057 getragen.\n\nVerfügbarkeit: ab 1910 bis 1970\nHöchstgeschwindikeit: 50 km/h / 60 km/h\nZugkraft: 809 kW\nAnfahrzugkraft: 177 kN",
 
-            ["pr_g10_menu"] = "Preußische G 10 / BR 55/57",
-			["pr_g10_kpev_name"] = "KPEV pr. G 10 (1910)",
-			["pr_g10_kpev_desc"] = "Die G 8 wurde zwischen 1902 und 1913 von verschiedenen Herstellern in insgesamt 1.054 Exemplaren gebaut. Es waren die ersten Heißdampf-Güterzuglokomotiven in Preußen, weshalb sie anfangs unter einer Reihe von Kinderkrankheiten litten. Es wurden zahlreiche erfolglose Versuche unternommen, die Konstruktion zu verbessern. - Version mit 4T 16 Tender",
-			["pr_g8_3t16_drg_name"] = "DRG BR 55.16-22 - Tender 3T 16 (1923)",
-			["pr_g8_3t16_drg_desc"] = "Mit pr. G 8 wurde von der DRG übernommen und als Baureihe 55 bezeichnet. Die Loks waren zahlreich im Einsatz im Güter- und Rangierverkehr. - Version mit 3T 16 Tender",
-			["pr_g8_4t16_drg_name"] = "DRG BR 55.16-22 - Tender 4T 16 (1923)",
-			["pr_g8_4t16_drg_desc"] = "Mit pr. G 8 wurde von der DRG übernommen und als Baureihe 55 bezeichnet. Die Loks waren zahlreich im Einsatz im Güter- und Rangierverkehr. - Version mit 4T 16 Tender",
-            ["pr_g8_db_name"] = "DB BR 55.16-22 - Tender 3T 16 (1947)",
-			["pr_g8_db_desc"] = "Zur DB kamen noch 200 Lokomotiven, die aber bis 1955 bereits ausgemustert wurden aufgrund der geringen Geschwindigkeit. - Version mit 3T 16 Tender",
+            ["pr_g10_menu"] = "Preußische G 10 / BR 57",
+			["pr_g10_kpev1_name"] = "KPEV pr. G 10 - Tender 3T 20  (1910)",
+			["pr_g10_kpev1_desc"] = "Die G 8 wurde zwischen 1902 und 1913 von verschiedenen Herstellern in insgesamt 1.054 Exemplaren gebaut. Es waren die ersten Heißdampf-Güterzuglokomotiven in Preußen, weshalb sie anfangs unter einer Reihe von Kinderkrankheiten litten. Es wurden zahlreiche erfolglose Versuche unternommen, die Konstruktion zu verbessern. - Version mit 3T 20 Tender",
+            ["pr_g10_kpev2_name"] = "KPEV pr. G 10 - Tender 3T 20  (1914)",
+			["pr_g10_kpev2_desc"] = "Die G 8 wurde zwischen 1902 und 1913 von verschiedenen Herstellern in insgesamt 1.054 Exemplaren gebaut. Es waren die ersten Heißdampf-Güterzuglokomotiven in Preußen, weshalb sie anfangs unter einer Reihe von Kinderkrankheiten litten. Es wurden zahlreiche erfolglose Versuche unternommen, die Konstruktion zu verbessern. - Version mit 3T 20 Tender",
+            ["pr_g10_kpev3_name"] = "KPEV pr. G 10 - Tender 3T 20 (1914)",
+			["pr_g10_kpev3_desc"] = "Die G 8 wurde zwischen 1902 und 1913 von verschiedenen Herstellern in insgesamt 1.054 Exemplaren gebaut. Es waren die ersten Heißdampf-Güterzuglokomotiven in Preußen, weshalb sie anfangs unter einer Reihe von Kinderkrankheiten litten. Es wurden zahlreiche erfolglose Versuche unternommen, die Konstruktion zu verbessern. - Version mit 3T 20 Tender",
+			["pr_g10_drg1_name"] = "DRG BR 57.10 - Tender 3T 20 (1923)",
+			["pr_g10_drg1_desc"] = "Mit pr. G 8 wurde von der DRG übernommen und als Baureihe 55 bezeichnet. Die Loks waren zahlreich im Einsatz im Güter- und Rangierverkehr. - Version mit 3T 20 Tender",
+			["pr_g10_drg2_name"] = "DRG BR 57.10 - Tender 3T 20 (1923)",
+			["pr_g10_drg2_desc"] = "Mit pr. G 8 wurde von der DRG übernommen und als Baureihe 55 bezeichnet. Die Loks waren zahlreich im Einsatz im Güter- und Rangierverkehr. - Version mit 3T 20 Tender",
+            ["pr_g10_drg3_name"] = "DRG BR 57.10 - Tender 3T 20 (1923)",
+			["pr_g10_drg3_desc"] = "Mit pr. G 8 wurde von der DRG übernommen und als Baureihe 55 bezeichnet. Die Loks waren zahlreich im Einsatz im Güter- und Rangierverkehr. - Version mit 3T 20 Tender",
+            ["pr_g10_db1_name"] = "DB BR 57.10 - Tender 3T 20 (1947)",
+			["pr_g10_db1_desc"] = "Zur DB kamen noch 200 Lokomotiven, die aber bis 1955 bereits ausgemustert wurden aufgrund der geringen Geschwindigkeit. - Version mit 3T 20 Tender",
+            ["pr_g10_db2_name"] = "DB BR 57.10 - Tender 3T 20 (1958)",
+			["pr_g10_db2_desc"] = "Zur DB kamen noch 200 Lokomotiven, die aber bis 1955 bereits ausgemustert wurden aufgrund der geringen Geschwindigkeit. - Version mit 3T 20 Tender",
 
-            ["pr_g81_3t16_kpev_name"] = "KPEV pr. G 8.1 - Tender 3T 16 (1914)",
-			["pr_g81_3t16_kpev_desc"] = "Die Preussische G 8.1 war eine Weiterentwicklung der G 8 und wurde zunächst als „Verstärkte Normalbauart“ bezeichnet. Sie hatte einen größeren Kessel und war schwerer und leistungsstärker als die gewöhnliche G 8. - Version mit 3T 16,5 Tender",
-            ["pr_g81_3t20_kpev_name"] = "KPEV pr. G 8.1 - Tender 3T 20 (1921)",
-			["pr_g81_3t20_kpev_desc"] = "Die Preussische G 8.1 war eine Weiterentwicklung der G 8 und wurde zunächst als „Verstärkte Normalbauart“ bezeichnet. Sie hatte einen größeren Kessel und war schwerer und leistungsstärker als die gewöhnliche G 8. - Version mit 3T 20 Tender",
-			["pr_g81_3t16_drg_name"] = "DRG BR 55.25-56 - Tender 3T 16 (1923)",
-			["pr_g81_3t16_drg_desc"] = "Die DRG übernahm die pr. G 8.1 als Baureihe 55. Die G 8.1 war die meistgebaute Länderbahnlokomotive und ungefähr 5000 Stück waren im Einsatz. - Version mit 3T 16,5 Tender",
-            ["pr_g81_3t20_drg_name"] = "DRG BR 55.25-56 - Tender 3T 20 (1923)",
-			["pr_g81_3t20_drg_desc"] = "Die DRG übernahm die pr. G 8.1 als Baureihe 55. Die G 8.1 war die meistgebaute Länderbahnlokomotive und ungefähr 5000 Stück waren im Einsatz. - Version mit 3T 20 Tender",
-            ["pr_g81_3t16_db1_name"] = "DB BR 55.25-56 - Tender 3T 16 (1947)",
-			["pr_g81_3t16_db1_desc"] = "Die DB hat noch 1.000 Fahrzeug der Baureihe 55 übernommen. Sie waren zahlreich im Güterverkehr vertreten und zunehmend auch im schweren Rangierdienst. - Version mit 3T 16 Tender",
-            ["pr_g81_3t20_db1_name"] = "DB BR 55.25-56 - Tender 3T 20 (1947)",
-			["pr_g81_3t20_db1_desc"] = "Die DB hat noch 1.000 Fahrzeug der Baureihe 55 übernommen. Sie waren zahlreich im Güterverkehr vertreten und zunehmend auch im schweren Rangierdienst. - Version mit 3T 20 Tender",
-            ["pr_g81_3t16_db2_name"] = "DB BR 055 - Tender 3T 16 (1968)",
-			["pr_g81_3t16_db2_desc"] = "Mit den EDV-Nummern wurde aus der Bauereihe 55 die Baureihe 055. Die letzte Lok wurde bei der Bundesbahn im Dezember 1972 abgestellt. - Version mit 3T 16 Tender",
-            ["pr_g81_3t20_db2_name"] = "DB BR 055 - Tender 3T 20 (1968)",
-			["pr_g81_3t20_db2_desc"] = "Mit den EDV-Nummern wurde aus der Bauereihe 55 die Baureihe 055. Die letzte Lok wurde bei der Bundesbahn im Dezember 1972 abgestellt. - Version mit 3T 20 Tender",
-
-            ["pr_g81_achse_drg_name"] = "DRG BR 56.2–8 (1934)",
-            ["pr_g81_achse_drg_desc"] = "Zwischen 1934 und 1941 wurden fast 700 Loks der G 8.1 umgebaut mit einer Vorlaufachse. Diese Loks waren stärker und durften bis zu 70 km/h schnell fahren. Die Loks wurden als Baureihe 56 geführt.",
-            ["pr_g81_achse_db_name"] = "DB BR 56.2–8 (1947)",
-            ["pr_g81_achse_db_desc"] = "Die umgebauten ehemaligen pr G 8.1 mit Vorlaufachse wurden von der Bundesbahn mit 350 Stück übernommen. Bis 1968 wurden alle Maschinen ausgemustert, die Baureihenbezeichnung 056 wurde vorgesehen aber nicht mehr vergeben.",
-
-            ["pr_g81_stroomann_name"] = "KPEV, pr 8.1 Bauart Stroomann (1914)",
-            ["pr_g81_stroomann_desc"] = "Für die Direktion Magdeburg wurden drei Maschinen umgebaut mit Stroomann-Kessel. Das war eine Kesselbauart mit einem Flammrohr-Wasserrohr-Kessel: An Stelle der Feuerbüchse war ein Wellrohr mit Innenfeuerung, und der Langkessel bestand aus einem Bündel mit wassergefüllten, rauchumspülten Rohren, die an den Enden durch Wasserkammern verbunden waren. Der Stroomann-Kessel konnte sich nicht durchsetzen.",
-
-            ["pr_g8 Asset Set"] = "Preussische G 8 und G 8.1",
-            ["Statische pr_g8 Lokomotiven."] = "Assets von den preussischen Güterzugloks.",
-            ["pr_g8_assets"] = "preussiche Güterzuglok Assets",
-            ["pr_g8 als Asset"] = "Preussische Güterzugloks G 8 und G 8.1 als Asset",
+            ["pr_g10 Asset Set"] = "Preussische G 10",
+            ["Statische pr_g10 Lokomotiven."] = "Assets von den preussischen Güterzugloks.",
+            ["pr_g10_assets"] = "preussiche Güterzuglok Assets",
+            ["pr_g10 als Asset"] = "Preussische Güterzugloks G 10 als Asset",
 
 		},
 	}
