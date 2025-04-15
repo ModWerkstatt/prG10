@@ -37,7 +37,7 @@ return {
 					        },
 					        {
 						        materials = { "vehicle/train/pr_g10/rumpf_drg3.mtl", },
-						        mesh = "vehicle/train/pr_g10/drg/lampen_drg_lod0.msh",
+						        mesh = "vehicle/train/pr_g10/drg/lampen_drg2_lod0.msh",
 						        name = "Lampe_old",
 						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 					        },
