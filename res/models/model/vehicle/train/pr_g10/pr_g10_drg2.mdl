@@ -402,7 +402,7 @@ return {
 		},
 		description = {
 			name = _("pr_g10_3t20_drg2_name"),
-			description = _("pr_g10_3t20_drg2_desc"),
+			description = _("pr_g10_drg2_desc"),
 		},
 		emission = {
 			idleEmission = -1,

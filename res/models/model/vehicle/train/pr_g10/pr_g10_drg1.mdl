@@ -401,8 +401,8 @@ return {
 			price = -1,
 		},
 		description = {
-			name = _("pr_g10_3t20_drg_name"),
-			description = _("pr_g10_3t20_drg_desc"),
+			name = _("pr_g10_3t20_drg1_name"),
+			description = _("pr_g10_3t20_desc"),
 		},
 		emission = {
 			idleEmission = -1,
