@@ -755,6 +755,26 @@ return {
 					innerBackwardParts = { },
 					innerForwardParts = { },
 				},
+				{
+					axles = { "vehicle/train/pr_g10/rad_lod1.msh",
+							  "vehicle/train/pr_g10/tender_3t20/rad_lod1.msh", },
+					backBackwardParts = { 26, },
+					backForwardParts = { 25, },
+					frontBackwardParts = { 18, },
+					frontForwardParts = { 17, },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+				{
+					axles = { "vehicle/train/pr_g10/rad_lod2.msh",
+							  "vehicle/train/pr_g10/tender_3t20/rad_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
 			},
 			engines = {
 				{
