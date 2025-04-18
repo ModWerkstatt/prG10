@@ -61,7 +61,7 @@ return {
 		transportVehicle = {
 			carrier = "RAIL",
 			multipleUnitOnly = true,
-			reversible = false,
+			reversible = true,
 		},
         seatProvider = {
             crewModels = { },

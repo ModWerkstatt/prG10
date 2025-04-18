@@ -835,7 +835,7 @@ return {
 			},
 			loadSpeed = 1,
 			multipleUnitOnly = false,
-			reversible = false,
+			reversible = true,
             groupFileName = "vehicle/train/pr_g10/menu_pr_g10.mdl",
 		},
 	},
