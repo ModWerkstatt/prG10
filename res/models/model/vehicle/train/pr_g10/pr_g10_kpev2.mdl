@@ -700,7 +700,7 @@ return {
 		},
 		description = {
 			name = _("pr_g10_3t20_kpev2_name"),
-			description = _("pr_g100_kpev2_desc"),
+			description = _("pr_g100_kpev_desc"),
 		},
 		emission = {
 			idleEmission = -1,
