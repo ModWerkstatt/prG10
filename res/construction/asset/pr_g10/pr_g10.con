@@ -1,0 +1,155 @@
+function data()
+return {
+	type = "ASSET_TRACK",
+	description = {
+		name = _("pr_g10 Asset Set"),
+		description = _("Statische pr_g10 Lokomotiven.")
+	},
+	availability = {},
+	buildMode = "MULTI",
+	categories = { "trains" },
+	order = 212210301,
+	skipCollision = true,
+	autoRemovable = false,
+	params = {
+		{
+			key = "pr_g10",
+			name = _("pr_g10_assets"),
+			uiType = "ICON_BUTTON",
+			values = { "ui/construction/asset/pr_g10/pr_g10_3t16_kpev1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t16_kpev2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t16_kpev3@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t16_drg1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t16_drg2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t16_drg3@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t16_db1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t16_db2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_kpev1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_kpev2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_kpev3@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_drg1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_drg2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_drg3@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_db1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_3t20_db2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_kpev1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_kpev2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_kpev3@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_drg1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_drg2@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_drg3@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_db1@2x.tga",
+                       "ui/construction/asset/pr_g10/pr_g10_22t21_db2@2x.tga",
+            },
+			tooltip = _("pr_g10 als Asset"),
+		},
+	},
+	updateFn = function(params)
+		local result = { }
+		result.models = {  }
+		local height = 0
+
+		if params.pr_g10 == 0 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_kpev1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 1 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_kpev2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 2 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_kpev3_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 3 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_drg1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 4 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_drg2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 5 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_drg3_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 6 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_db1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 7 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t16_db2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 8 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_kpev1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 9 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_kpev2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 10 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_kpev3_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 11 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_drg1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 12 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_drg2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 13 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_drg3_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 14 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_db1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 15 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_3t20_db2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 16 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_kpev1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 17 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_kpev2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 18 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_kpev3_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 19 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_drg1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 20 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_drg2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 21 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_drg3_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 22 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_db1_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		if params.pr_g10 == 23 then
+		result.models[#result.models+1] = {id = "asset/train/pr_g10/pr_g10_22t21_db2_asset.mdl", transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 1, 1, }, }
+		end
+
+		result.terrainAlignmentLists = { {
+			type = "EQUAL",
+			faces =  { }
+		} }
+		return result
+	end
+}
+end
