@@ -5,7 +5,10 @@ return {
 		name = _("pr_g10 Asset Set"),
 		description = _("Statische pr_g10 Lokomotiven.")
 	},
-	availability = {},
+	availability = {
+        yearFrom = 1910,
+        yearTo = 1970,
+    },
 	buildMode = "MULTI",
 	categories = { "trains" },
 	order = 212210301,
