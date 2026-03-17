@@ -1,7 +1,7 @@
 {
 	"en": {
 
-        "pr_g10_menu" : "Preußische G 10 / Class 57",
+        "menu_pr_g10" : "Preußische G 10 / Class 57",
 		
 		"pr_g10_3t20_kpev1" : "KPEV pr. G 10 - Tender 3T 20",
         "pr_g10_3t16_kpev1" : "KPEV pr. G 10 - Tender 3T 16,5",
@@ -46,7 +46,7 @@
 	},
 	"de": {
 
-        "pr_g10_menu" : "Preußische G 10 / BR 57",
+        "menu_pr_g10" : "Preußische G 10 / BR 57",
 			
 		"pr_g10_3t20_kpev1" : "KPEV pr. G 10 - Tender 3T 20",
         "pr_g10_3t16_kpev1" : "KPEV pr. G 10 - Tender 3T 16,5",
