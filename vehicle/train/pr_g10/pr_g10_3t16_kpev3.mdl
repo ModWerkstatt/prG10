@@ -1,0 +1,1280 @@
+function data()
+return { 
+		boundingInfo = { 
+			bbMax = { 9.48165988922119140625, 1.6608493328094482421875, 4.534641265869140625, },
+			bbMin = { -8.917400360107421875, -1.66084945201873779296875, -0.05806362628936767578125, },
+		},
+		collider = { 
+			params = { 
+				halfExtents = { 9.33809566497802734375, 1.6608493328094482421875, 2.296352386474609375, },
+			},
+			transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			type = "BOX",
+		},
+		lods = {
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kpev3.mtl", },
+									mesh = "msh/rumpf_kpev3_lod0.msh",
+									name = "rumpf_kpev",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kpev3.mtl", },
+									mesh = "msh/borde_alt_lod0.msh",
+									name = "borde_alt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/glas.mtl", },
+									mesh = "msh/glas_kpev_lod0.msh",
+									name = "glas_g10_kpev",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kpev3.mtl", },
+									mesh = "msh/lampen_kpev_lod0.msh",
+									name = "Lampe_old",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/innen.mtl", },
+									mesh = "msh/innen_lod0.msh",
+									name = "interior",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.994699954986572265625, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4965000152587890625, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad3_lod0.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.65180099010467529296875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4995000362396240234375, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod0.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9937798976898193359375, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_2_lod0.msh",
+									name = "rechts_rod_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9651966094970703125, -0.0548656545579433441162109375, 0.6499538421630859375, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_3.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_3_lod0.msh",
+									name = "rechts_rod_3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.261379241943359375, -0.074586160480976104736328125, 1.2353398799896240234375, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_4_lod0.msh",
+									name = "rechts_rod_4",
+									transf = { 0.627484977245330810546875, 0, -0.0576818250119686126708984375, 0, 0, -0.630130589008331298828125, 0, 0, 0.0576818250119686126708984375, 0, 0.627484977245330810546875, 0, 3.268840312957763671875, -1.13307201862335205078125, 1.38536417484283447265625, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_5.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_5_lod0.msh",
+									name = "rechts_rod_5",
+									transf = { 0.935630857944488525390625, 0, 0.3529798984527587890625, 0, 0, 1, 0, 0, -0.3529798984527587890625, 0, 0.935630857944488525390625, 0, 3.267349720001220703125, -0.0745861530303955078125, 1.38564968109130859375, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_6.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_6_lod0.msh",
+									name = "rechts_rod_6",
+									transf = { 0.529186725616455078125, 0, 0.1895298063755035400390625, 0, 0, 0.3859005272388458251953125, 0, 0, -0.1895298063755035400390625, 0, 0.529186725616455078125, 0, 1.28783118724822998046875, -1.13033449649810791015625, 1.34823119640350341796875, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_7.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_7_lod0.msh",
+									name = "rechts_rod_7",
+									transf = { 0.99999773502349853515625, 0, 0.00211051129736006259918212890625, 0, 0, 1, 0, 0, -0.00211051129736006259918212890625, 0, 0.99999773502349853515625, 0, 0.0391949974000453948974609375, -1.13813579082489013671875, 0.656710326671600341796875, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_9.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_9_lod0.msh",
+									name = "rechts_rod_9",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.970195770263671875, -1.29414212703704833984375, 0.4358272552490234375, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/radverbinder_rechts.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/radverbinder_rechts_lod0.msh",
+									name = "radverbinder_rechts",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.311399936676025390625, 0, -0.00192927313037216663360595703125, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/schubstange_rechts.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/schubstange_rechts_lod0.msh",
+									name = "schubstange_rechts",
+									transf = { 0.99612510204315185546875, 0, 0.08794705569744110107421875, 0, 0, 1, 0, 0, -0.08794705569744110107421875, 0, 0.99612510204315185546875, 0, 0, -0.059182889759540557861328125, 0.392623007297515869140625, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_7.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_7_lod0.msh",
+									name = "links_rod_7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0391949974000453948974609375, 1.16585063934326171875, 0.6511690616607666015625, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/radverbinder_links.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/radverbinder_links_lod0.msh",
+									name = "radverbinder_links",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.311399936676025390625, 0.0011638067662715911865234375, 0.5161411762237548828125, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/schubstange_links.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/schubstange_links_lod0.msh",
+									name = "schubstange_links",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001000000047497451305389404296875, 0.0603466890752315521240234375, 0.9106934070587158203125, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_2_lod0.msh",
+									name = "links_rod_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9651966094970703125, 0.055621802806854248046875, 0.6499538421630859375, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_3.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_3_lod0.msh",
+									name = "links_rod_3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.261379241943359375, 0.075342230498790740966796875, 1.2353398799896240234375, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_4_lod0.msh",
+									name = "links_rod_4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.268840312957763671875, 1.13382804393768310546875, 1.38536417484283447265625, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_5.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_5_lod0.msh",
+									name = "links_rod_5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.267349720001220703125, 0.075342230498790740966796875, 1.38564968109130859375, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_6.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_6_lod0.msh",
+									name = "links_rod_6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.28783118724822998046875, 1.131090641021728515625, 1.34823119640350341796875, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_9.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_9_lod0.msh",
+									name = "links_rod_9",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.970195770263671875, 1.29489815235137939453125, 0.4358272552490234375, 1, },
+								},
+								{ 
+									animations = { 
+										front_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										front_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/licht_weiss_kpev_lod0.msh",
+									name = "headlights_fwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/licht_rot_kpev_lod0.msh",
+									name = "taillights_bwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "Preußische_G10",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3123600482940673828125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rumpf_lod0.msh",
+									name = "3t20",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod0.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.90390002727508544921875, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod0.msh",
+									name = "a7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0010999999940395355224609375, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod0.msh",
+									name = "a8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.89960002899169921875, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/lampen_kpev_lod0.msh",
+									name = "Lampe_old",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/glas.mtl", },
+									mesh = "msh/tender_3t16/glas_kpev_lod0.msh",
+									name = "glas_tender_3t16",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/tender_3t16/licht_rot_kpev_lod0.msh",
+									name = "taillights_fwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.5, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										front_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										front_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/tender_3t16/licht_weiss_kpev_lod0.msh",
+									name = "headlights_bwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.5, 0, 0, 1, },
+								},
+							},
+							name = "tender_3t16",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1742401123046875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 0,
+				visibleTo = 100,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kpev3.mtl", },
+									mesh = "msh/rumpf_kpev3_lod1.msh",
+									name = "rumpf_kpev",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kpev3.mtl", },
+									mesh = "msh/borde_lod1.msh",
+									name = "borde_alt",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/glas.mtl", },
+									mesh = "msh/glas_kpev_lod0.msh",
+									name = "glas_g10_kpev",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/rumpf_kpev3.mtl", },
+									mesh = "msh/lampen_kpev_lod1.msh",
+									name = "Lampe_old",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.994699954986572265625, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4965000152587890625, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.65180099010467529296875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4995000362396240234375, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod1.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9937798976898193359375, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rechts_rod_2_lod1.msh",
+									name = "rechts_rod_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9651966094970703125, -0.0548656545579433441162109375, 0.6499538421630859375, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/radverbinder_rechts.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/radverbinder_rechts_lod1.msh",
+									name = "radverbinder_rechts",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.311399936676025390625, 0, -0.00192927313037216663360595703125, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/schubstange_rechts.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/schubstange_rechts_lod1.msh",
+									name = "schubstange_rechts",
+									transf = { 0.99612510204315185546875, 0, 0.08794705569744110107421875, 0, 0, 1, 0, 0, -0.08794705569744110107421875, 0, 0.99612510204315185546875, 0, 0, -0.059182889759540557861328125, 0.392623007297515869140625, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/radverbinder_links.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/radverbinder_links_lod1.msh",
+									name = "radverbinder_links",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.311399936676025390625, 0.0011638067662715911865234375, 0.5161411762237548828125, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/schubstange_links.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/schubstange_links_lod1.msh",
+									name = "schubstange_links",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.001000000047497451305389404296875, 0.0603466890752315521240234375, 0.9106934070587158203125, 1, },
+								},
+								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_2.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/links_rod_2_lod1.msh",
+									name = "links_rod_2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.9651966094970703125, 0.055621802806854248046875, 0.6499538421630859375, 1, },
+								},
+								{ 
+									animations = { 
+										front_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										front_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/licht_weiss_kpev_lod0.msh",
+									name = "headlights_fwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/licht_rot_kpev_lod0.msh",
+									name = "taillights_bwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+							},
+							name = "Preußische_G10",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3123600482940673828125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rumpf_lod1.msh",
+									name = "3t20",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod1.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.90390002727508544921875, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod1.msh",
+									name = "a7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0010999999940395355224609375, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod1.msh",
+									name = "a8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.89960002899169921875, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/lampen_kpev_lod1.msh",
+									name = "Lampe_old",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										back_forward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										back_forward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/back_forward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/tender_3t16/licht_rot_kpev_lod0.msh",
+									name = "taillights_fwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.5, 0, 0, 1, },
+								},
+								{ 
+									animations = { 
+										front_backward_parts_off = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_off.ani",
+											},
+											type = "FILE_REF",
+										},
+										front_backward_parts_on = { 
+											interpolation = "NEAREST",
+											params = { 
+												id = "::/vehicle/shared/ani/front_backward_parts_on.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
+									materials = { "::/vehicle/train/emissive/train_all_lights.mtl", },
+									mesh = "msh/tender_3t16/licht_weiss_kpev_lod0.msh",
+									name = "headlights_bwd",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.5, 0, 0, 1, },
+								},
+							},
+							name = "tender_3t16",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1742401123046875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 100,
+				visibleTo = 300,
+			},
+			{ 
+				node = { 
+					children = {
+						{ 
+							children = {
+								{ 
+									materials = { "mat/rumpf_kpev3.mtl", },
+									mesh = "msh/rumpf_kpev3_lod2.msh",
+									name = "rumpf_kpev",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "a1",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.994699954986572265625, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "a2",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4965000152587890625, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "a3",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.65180099010467529296875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "a4",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4995000362396240234375, 0, 0.651800811290740966796875, 1, },
+								},
+								{ 
+									materials = { "mat/beweglich_kpev.mtl", },
+									mesh = "msh/rad_lod2.msh",
+									name = "a5",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -2.9937798976898193359375, 0, 0.651800811290740966796875, 1, },
+								},
+							},
+							name = "Preußische_G10",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.3123600482940673828125, 0, 0, 1, },
+						},
+						{ 
+							children = {
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rumpf_lod2.msh",
+									name = "3t20",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod2.msh",
+									name = "a6",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.90390002727508544921875, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod2.msh",
+									name = "a7",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.0010999999940395355224609375, 0, 0.4901680052280426025390625, 1, },
+								},
+								{ 
+									materials = { "mat/tender_3t16/rumpf_kpev.mtl", },
+									mesh = "msh/tender_3t16/rad_lod2.msh",
+									name = "a8",
+									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.89960002899169921875, 0, 0.4901680052280426025390625, 1, },
+								},
+							},
+							name = "tender_3t16",
+							transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -5.1742401123046875, 0, 0, 1, },
+						},
+					},
+					name = "RootNode",
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+				},
+				visibleFrom = 300,
+				visibleTo = 1000,
+			},
+		},
+		metadata = { 
+			availability = { 
+				yearFrom = 1914,
+				yearTo = 1923,
+			},
+			cost = { 
+				price = -1,
+			},
+			description = { 
+				description = _("pr_g10_kpev_desc"),
+				name = _("pr_g10_3t20_kpev3"),
+			},
+			emissions = { 
+				noise = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+				pollution = { 
+					idle = -1,
+					power = -1,
+					speed = -1,
+				},
+			},
+			landVehicle = { 
+				brakeDeceleration = 2.5,
+				engines = {
+					{ 
+						power = 809,
+						tractiveEffort = 177,
+						type = "STEAM",
+					},
+				},
+				friction = 0.0199999995529651641845703125,
+				topSpeed = 15.27777767181396484375,
+				weightEmpty = 122000,
+				weightMaxPayload = 0,
+			},
+			lightSourceList = { 
+				lights = {
+					{ 
+						angleMin = 5,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_fwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 2,
+						transf = { 0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, 1, 0, 0, 0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, 5.530000209808349609375, 0.89999997615814208984375, 1.5099999904632568359375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_fwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 2,
+						transf = { 0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, 1, 0, 0, 0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, 5.530000209808349609375, -0.89999997615814208984375, 1.5099999904632568359375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_fwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 1.5,
+						transf = { 0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, 1, 0, 0, 0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, 5.05000019073486328125, 0, 3.4500000476837158203125, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_bwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 1,
+						transf = { 0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, 1, 0, 0, 0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, 5.530000209808349609375, 0.89999997615814208984375, 1.5099999904632568359375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_bwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 1,
+						transf = { 0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, 1, 0, 0, 0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, 5.530000209808349609375, -0.89999997615814208984375, 1.5099999904632568359375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_bwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 2,
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, 0.89999997615814208984375, 1.440000057220458984375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_bwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 2,
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, -0.89999997615814208984375, 1.440000057220458984375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "headlights_bwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 1.5,
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -2.9700000286102294921875, 0, 2.690000057220458984375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_fwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 1,
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, 0.89999997615814208984375, 1.440000057220458984375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMin = 5,
+						color = { 0.33725488185882568359375, 0.0079354085028171539306640625, 0.0079354085028171539306640625, },
+						fadeOutStart = 1400,
+						invertMask = true,
+						lightId = "",
+						mask = 0,
+						meshId = "taillights_fwd",
+						mode = "LIGHT",
+						radius = 10,
+						strength = 1,
+						transf = { -0.98500001430511474609375, 0, -0.1739999949932098388671875, 0, 0, -1, 0, 0, -0.1739999949932098388671875, 0, 0.98500001430511474609375, 0, -3.1400001049041748046875, -0.89999997615814208984375, 1.440000057220458984375, 1, },
+						type = "SPOT",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+					{ 
+						angleMax = 89,
+						angleMin = 1,
+						color = { 1, 0.9261314868927001953125, 0.5803921222686767578125, },
+						fadeOutStart = 600,
+						invertMask = false,
+						lightId = "",
+						mask = 32,
+						meshId = "interior",
+						mode = "LIGHT",
+						radius = 3,
+						strength = 3,
+						transf = { 1, 0, 0, 0, 0, 0, -1, 0, 0, 1, 0, 0, -4.80000019073486328125, 0, 4, 1, },
+						type = "CYLINDRICAL",
+						visibleFrom = -1,
+						visibleTo = 1600,
+					},
+				},
+			},
+			maintenance = { 
+				lifespan = 36525,
+				runningCosts = -1,
+			},
+			particleSystem = { 
+				emitters = {
+					{ 
+						child = "rumpf_kpev",
+						colorOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 1,
+									value = { 0.60000002384185791015625, 0.699999988079071044921875, 0.699999988079071044921875, },
+								},
+							},
+						},
+						frequency = { 
+							value = 60,
+						},
+						lifeTime = { 
+							randomMinMax = { 
+								max = 4,
+								min = 2,
+							},
+						},
+						particleId = "",
+						position = { 4, 0, 4.349999904632568359375, },
+						shape = { 
+							point = { 
+								maxDir = 0.800000011920928955078125,
+							},
+						},
+						sizeOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 0,
+									value = { 
+										value = 0.25,
+									},
+								},
+								{ 
+									easing = "EaseOutSqrt",
+									time = 4,
+									value = { 
+										value = 4,
+									},
+								},
+							},
+						},
+						velocity = { 
+							value = { 0, 0, 8, },
+						},
+						velocityByDirection = { 
+							value = 0,
+						},
+					},
+					{ 
+						child = "rumpf_kpev",
+						colorOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 1,
+									value = { 0.699999988079071044921875, 0.699999988079071044921875, 0.699999988079071044921875, },
+								},
+							},
+						},
+						frequency = { 
+							value = 80,
+						},
+						lifeTime = { 
+							randomMinMax = { 
+								max = 1,
+								min = 0.5,
+							},
+						},
+						particleId = "",
+						position = { 3.974999904632568359375, -1.02499997615814208984375, 0.4199999868869781494140625, },
+						shape = { 
+							point = { 
+								maxDir = 0.800000011920928955078125,
+							},
+						},
+						sizeOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 0,
+									value = { 
+										value = 0.100000001490116119384765625,
+									},
+								},
+								{ 
+									easing = "EaseOutSqrt",
+									time = 4,
+									value = { 
+										value = 0.20000000298023223876953125,
+									},
+								},
+							},
+						},
+						velocity = { 
+							value = { -1, 0, 0, },
+						},
+						velocityByDirection = { 
+							value = 0,
+						},
+					},
+					{ 
+						child = "rumpf_kpev",
+						colorOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 1,
+									value = { 0.699999988079071044921875, 0.699999988079071044921875, 0.699999988079071044921875, },
+								},
+							},
+						},
+						frequency = { 
+							value = 80,
+						},
+						lifeTime = { 
+							randomMinMax = { 
+								max = 1,
+								min = 0.5,
+							},
+						},
+						particleId = "",
+						position = { 3.974999904632568359375, 1.02499997615814208984375, 0.4199999868869781494140625, },
+						shape = { 
+							point = { 
+								maxDir = 0.800000011920928955078125,
+							},
+						},
+						sizeOverLifeTime = { 
+							curve = {
+								{ 
+									easing = "Linear",
+									time = 0,
+									value = { 
+										value = 0.100000001490116119384765625,
+									},
+								},
+								{ 
+									easing = "EaseOutSqrt",
+									time = 4,
+									value = { 
+										value = 0.20000000298023223876953125,
+									},
+								},
+							},
+						},
+						velocity = { 
+							value = { -1, 0, 0, },
+						},
+						velocityByDirection = { 
+							value = 0,
+						},
+					},
+				},
+			},
+			railVehicle = { 
+				config = { 
+					axles = { "a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8", },
+					fakeBogies = { },
+				},
+			},
+			seatProvider = { 
+				crewModels = { },
+				drivingLicense = "RAIL",
+				seats = {
+					{ 
+						animation = "idle",
+						crew = true,
+						group = "Preußische_G10",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.80000019073486328125, -1, 1.58000004291534423828125, 1, },
+					},
+					{ 
+						animation = "idle",
+						crew = true,
+						group = "Preußische_G10",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.80000019073486328125, 0.5, 1.58000004291534423828125, 1, },
+					},
+					{ 
+						animation = "idle",
+						crew = true,
+						forward = false,
+						group = "Preußische_G10",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.80000019073486328125, -1, 1.58000004291534423828125, 1, },
+					},
+					{ 
+						animation = "idle",
+						crew = true,
+						forward = false,
+						group = "Preußische_G10",
+						transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -4.80000019073486328125, 0.5, 1.58000004291534423828125, 1, },
+					},
+				},
+			},
+			soundConfig = { 
+				soundSet = { 
+					name = "sound/pr_g10.snd",
+				},
+			},
+			transformatorConfig = { 
+				skipFromLod = 1,
+				transformator = { 
+					name = "::/vehicle/train/shared/default_train.trf",
+				},
+			},
+			transportVehicle = { 
+				carrier = "RAIL",
+				compartments = {
+					{ 
+						loadConfigs = {
+							{ 
+								cargoEntry = { 
+									capacity = 4,
+									cargoTypeSet = { 
+										cargoClassesExcluded = { },
+										cargoClassesIncluded = { },
+										cargoTypesExcluded = { },
+										cargoTypesIncluded = { },
+									},
+									loadIndicator = "",
+									seats = { },
+								},
+								toHide = { },
+							},
+						},
+					},
+				},
+				engineTags = { "TRAIN", "ELECTRIC_TRAIN", },
+				groupFileName = "menu_pr_g10.mdl",
+				reversible = true,
+				tags = { "TRAIN", "ELECTRIC_TRAIN", },
+			},
+		},
+		version = 2,
+	}
+end

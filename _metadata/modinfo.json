@@ -1,0 +1,22 @@
+{
+    "name": "Prussian G 10 / Class 57",
+    "summary": "",
+    "description": "The class G 8 locomotives were four-coupled, running-axle freight locomotives of the Prussian State Railways. There were two variants, the G 8 built from 1902 and the \"reinforced G 8\" built from 1913, later called G 8.1. With more than 5,000 units, the latter was the most frequently built state railway locomotive ever.",
+    "localization" : {
+        "de": {
+            "name": "Preußische G 10 / BR 57",
+            "summary": "",
+            "description": "Die Lokomotiven der Gattung G 10 waren fünffach gekuppelte Güterzuglokomotiven der Preußischen Staatseisenbahnen. Sie wurden zwischen 1910 und 1926 gebaut und gelten mit der Baureihe 52 als am weitesten verbreitete Güterzuglokomotiven. Sie waren noch bis 1970 im Einsatz, wurde EDV-mäßig erfasst aber haben nie die Anschrift als Baureihe 057 getragen."
+        }
+    },
+    "authors": [
+        {
+            "name": "ModWerkstatt",
+            "role": "CREATOR"
+        }
+    ],
+    "tags": [
+        "Locomotive"
+    ],
+    "url": "https://www.modwerkstatt.com/downloads/tpf3/preussische-g-10"
+}

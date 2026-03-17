@@ -1,0 +1,91 @@
+{
+	"en": {
+
+        "pr_g10_menu" : "Preußische G 10 / Class 57",
+		
+		"pr_g10_3t20_kpev1" : "KPEV pr. G 10 - Tender 3T 20",
+        "pr_g10_3t16_kpev1" : "KPEV pr. G 10 - Tender 3T 16,5",
+        "pr_g10_22t21_kpev1" : "KPEV pr. G 10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_kpev2" : "KPEV pr. G 10 - Tender 3T 20",
+        "pr_g10_3t16_kpev2" : "KPEV pr. G 10 - Tender 3T 16,5",
+        "pr_g10_22t21_kpev2" : "KPEV pr. G 10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_kpev3" : "KPEV pr. G 10 - Tender 3T 20",
+        "pr_g10_3t16_kpev3" : "KPEV pr. G 10 - Tender 3T 16,5",
+        "pr_g10_22t21_kpev3" : "KPEV pr. G 10 - Tender 2'2' T 21,5",
+		"pr_g10_kpev_desc" : "The G 10 class was first delivered in 1910, with a total of 2,651 units delivered by 1925. Their performance specifications were roughly comparable to those of the G 8 class. Numerous locomotives were also delivered to foreign railway administrations.",
+
+		"pr_g10_3t20_drg1" : "DRG Class 57.10 - Tender 3T 20",
+		"pr_g10_3t16_drg1" : "DRG Class 57.10 - Tender 3T 16,5",
+		"pr_g10_22t21_drg1" : "DRG Class 57.10 - Tender 2'2' T 21,5",
+		"pr_g10_3t20_drg2" : "DRG Class 57.10 - Tender 3T 20",
+		"pr_g10_3t16_drg2" : "DRG Class 57.10 - Tender 3T 16,5",
+		"pr_g10_22t21_drg2" : "DRG Class 57.10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_drg3" : "DRG Class 57.10 - Tender 3T 20",
+        "pr_g10_3t16_drg3" : "DRG Class 57.10 - Tender 3T 16,5",
+        "pr_g10_22t21_drg3" : "DRG Class 57.10 - Tender 2'2' T 21,5",
+		"pr_g10_drg_desc" : "Although the design dated back to the era of regional railways, the pr. G10 continued to be built as the Class 57 until 1925. This made it one of the most widely produced freight locomotives. Modifications to the undercarriage allowed the top speed to be increased to 60 km/h.",
+
+        "pr_g10_3t20_db1" : "DB Class 57.10 - Tender 3T 20",
+        "pr_g10_3t16_db1" : "DB Class 57.10 - Tender 3T 16,5",
+        "pr_g10_22t21_db1" : "DB Class 57.10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_db2" : "DB Class 57.10 - Tender 3T 20",
+        "pr_g10_3t16_db2" : "DB Class 57.10 - Tender 3T 16,5",
+        "pr_g10_22t21_db2" : "DB Class 57.10 - Tender 2'2' T 21,5",
+		"pr_g10_db2_desc" : "A total of 649 Class 57 locomotives were transferred to the DB, where they remained in active service until 1970. Although the locomotives were assigned the computer-based class designation 057, this was not painted onto the locomotives until after they were taken out of service.",
+
+
+        "offset x-axis": "Offset x-axis",
+        "vehicle": "Vehicle",
+        "asset": "Asset",
+        "height": "Height",
+        "ground": "Ground",
+        "rail": "Rail",
+        "height_tooltip": "Where should be the origin of the height?",
+        "jrm_param_offsetx_tooltip": "Offset in x direction"
+
+	},
+	"de": {
+
+        "pr_g10_menu" : "Preußische G 10 / BR 57",
+			
+		"pr_g10_3t20_kpev1" : "KPEV pr. G 10 - Tender 3T 20",
+        "pr_g10_3t16_kpev1" : "KPEV pr. G 10 - Tender 3T 16,5",
+        "pr_g10_22t21_kpev1" : "KPEV pr. G 10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_kpev2" : "KPEV pr. G 10 - Tender 3T 20",
+        "pr_g10_3t16_kpev2" : "KPEV pr. G 10 - Tender 3T 16,5",
+        "pr_g10_22t21_kpev2" : "KPEV pr. G 10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_kpev3" : "KPEV pr. G 10 - Tender 3T 20",
+        "pr_g10_3t16_kpev3" : "KPEV pr. G 10 - Tender 3T 16,5",
+        "pr_g10_22t21_kpev3" : "KPEV pr. G 10 - Tender 2'2' T 21,5",
+		"pr_g10_kpev_desc" : "Die G 10 wurden ab 1910 geliefert und bis 1925 in insgesamt 2.651 ausgeliefert. Ihre Leistungsdaten waren in etwa vergleichbar mit der G 8. Zahlreiche Lokomotiven wurde ausserdem an ausländische Bahnverwaltungen geliefert.",
+
+		"pr_g10_3t20_drg1" : "DRG BR 57.10 - Tender 3T 20",
+		"pr_g10_3t16_drg1" : "DRG BR 57.10 - Tender 3T 16,5",
+		"pr_g10_22t21_drg1" : "DRG BR 57.10 - Tender 2'2' T 21,5",
+		"pr_g10_3t20_drg2" : "DRG BR 57.10 - Tender 3T 20",
+		"pr_g10_3t16_drg2" : "DRG BR 57.10 - Tender 3T 16,5",
+		"pr_g10_22t21_drg2" : "DRG BR 57.10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_drg3" : "DRG BR 57.10 - Tender 3T 20",
+        "pr_g10_3t16_drg3" : "DRG BR 57.10 - Tender 3T 16,5",
+        "pr_g10_22t21_drg3" : "DRG BR 57.10 - Tender 2'2' T 21,5",
+		"pr_g10_drg_desc" : "Auch wenn die Konstruktion noch aus Länderbahnzeiten stammte, wurde die pr. G10 als Baureihe 57 bis 1925 weitergebaut. So wurde sie zu einer der meistgebauten Güterzuglokomotiven. Durch Änderungen im Fahrwerk konnte die Höchstgeschwindigkeit auf 60 km/h angehoben werden.",
+
+        "pr_g10_3t20_db1" : "DB BR 57.10 - Tender 3T 20",
+        "pr_g10_3t16_db1" : "DB BR 57.10 - Tender 3T 16,5",
+        "pr_g10_22t21_db1" : "DB BR 57.10 - Tender 2'2' T 21,5",
+        "pr_g10_3t20_db2" : "DB BR 57.10 - Tender 3T 20",
+        "pr_g10_3t16_db2" : "DB BR 57.10 - Tender 3T 16,5",
+        "pr_g10_22t21_db2" : "DB BR 57.10 - Tender 2'2' T 21,5",
+		"pr_g10_db2_desc" : "Zur DB kamen 649 Lokomotiven der Baureihe 57, die bis 1970 im aktiven Einsatz standen. Die Lokomotiven erhielten zwar die EDV-gemäße Baureihenbezeichnung 057, diese wurde aber erst nach Abstellung an den Loks aufgemalt.",
+
+        "offset x-axis": "Offset x-Achse",
+        "vehicle": "Fahrzeug",
+        "asset": "Asset",
+        "height": "Höhe",
+        "ground": "Boden",
+        "rail": "Schiene",
+        "height_tooltip": "Wonach soll die Höhe gesetzt werden?",
+        "jrm_param_offsetx_tooltip": "Verschiebung in x-Richtung"
+
+	}
+}
