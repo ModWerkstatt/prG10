@@ -138,6 +138,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.261379241943359375, -0.074586160480976104736328125, 1.2353398799896240234375, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/rechts_rod_4.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_kpev.mtl", },
 									mesh = "msh/rechts_rod_4_lod0.msh",
 									name = "rechts_rod_4",
@@ -298,6 +306,14 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 3.261379241943359375, 0.075342230498790740966796875, 1.2353398799896240234375, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/links_rod_4.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_kpev.mtl", },
 									mesh = "msh/links_rod_4_lod0.msh",
 									name = "links_rod_4",
