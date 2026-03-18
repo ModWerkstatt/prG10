@@ -54,24 +54,56 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.994699954986572265625, 0, 0.651800811290740966796875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4965000152587890625, 0, 0.651800811290740966796875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad3_lod0.msh",
 									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.65180099010467529296875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4995000362396240234375, 0, 0.651800811290740966796875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod0.msh",
 									name = "a5",
@@ -514,30 +546,70 @@ return {
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a1",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.994699954986572265625, 0, 0.651800811290740966796875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a2",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.4965000152587890625, 0, 0.651800811290740966796875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a3",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0.65180099010467529296875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a4",
 									transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4995000362396240234375, 0, 0.651800811290740966796875, 1, },
 								},
 								{ 
+									animations = { 
+										wheels = { 
+											params = { 
+												id = "ani/wheel.ani",
+											},
+											type = "FILE_REF",
+										},
+									},
 									materials = { "mat/beweglich_drg.mtl", },
 									mesh = "msh/rad_lod1.msh",
 									name = "a5",
